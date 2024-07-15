@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
+        print('====== Running database seeder =======');
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
